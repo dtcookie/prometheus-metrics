@@ -1,0 +1,13 @@
+{
+    "dynatrace": {
+        "environment": "abc12345",
+        "token": "##############"
+    },
+    "prometheus": "prometheus.local-network.org:9090",
+    "metrics": {
+        "includes": [
+            "node_memory_*"
+        ],
+        "excludes": []
+    }
+}
